@@ -2,44 +2,44 @@ package animais;
 public class Main {
     public static void main(String[] args) {
         
-        Mamifero m = new Mamifero();
-        Reptil r = new Reptil();
-        Peixe p = new Peixe();
-        Ave a = new Ave();
+        Mamifero mamifero1 = new Mamifero();
+        Reptil reptil1 = new Reptil();
+        Peixe peixe1 = new Peixe();
+        Ave ave1 = new Ave();
         
-        m.setPeso(85.3f);
-        m.setIdade(2);
-        m.setMembros(4);
-        m.locomover(); // Correndo
-        m.alimentar(); // Mamando
-        m.emitirSom(); // Som de mamífero
+        mamifero1.setPeso(85.3f);
+        mamifero1.setIdade(2);
+        mamifero1.setMembros(4);
+        mamifero1.locomover(); // Correndo
+        mamifero1.alimentar(); // Mamando
+        mamifero1.emitirSom(); // Som de mamífero
         
-        p.setPeso(0.35f);
-        p.setIdade(1);
-        p.setMembros(0);
-        p.locomover(); // Nadando
-        p.alimentar(); // Comendo substâncias
-        p.emitirSom(); // Peixe não emite som
-        p.soltarBolha();
+        peixe1.setPeso(0.35f);
+        peixe1.setIdade(1);
+        peixe1.setMembros(0);
+        peixe1.locomover(); // Nadando
+        peixe1.alimentar(); // Comendo substâncias
+        peixe1.emitirSom(); // Peixe não emite som
+        peixe1.soltarBolha();
         
-        a.setPeso(0.89f);
-        a.setIdade(2);
-        a.setMembros(2);
-        a.locomover(); // Voando
-        a.alimentar(); // Comendo frutas
-        a.emitirSom(); // Som de ave
-        a.fazerNinho();
+        ave1.setPeso(0.89f);
+        ave1.setIdade(2);
+        ave1.setMembros(2);
+        ave1.locomover(); // Voando
+        ave1.alimentar(); // Comendo frutas
+        ave1.emitirSom(); // Som de ave
+        ave1.fazerNinho();
         
-        Canguru c = new Canguru();
-        Cachorro k = new Cachorro();
+        Canguru canguro1 = new Canguru();
+        Cachorro cachorro1 = new Cachorro();
         
-        c.setPeso(55.3f);
-        c.setIdade(3);
-        c.setMembros(4);
-        c.locomover();
-        c.alimentar();
-        c.emitirSom();
-        c.usarBolsa();
+        canguro1.setPeso(55.3f);
+        canguro1.setIdade(3);
+        canguro1.setMembros(4);
+        canguro1.locomover();
+        canguro1.alimentar();
+        canguro1.emitirSom();
+        canguro1.usarBolsa();
         
                 
     }
